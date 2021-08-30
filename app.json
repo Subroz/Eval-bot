@@ -26,16 +26,15 @@
       "required": true
     }
   },
-      "buildpacks": [
+    "buildpacks": [
         {
-          "url": "heroku/python"
+            "url": "heroku/python"
         }
     ],
-  "formation": {
+    "formation": {
         "worker": {
             "quantity": 1,
             "size": "free"
         }
-    },
-      "stack": "heroku-20"
+    }
 }
