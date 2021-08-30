@@ -19,6 +19,10 @@
     "BOT_TOKEN": {
       "description": "Bot Token by @BotFather",
       "required": true
+    },
+    "USERS": {
+      "description": "user",
+      "required": true
     }
   },
       "buildpacks": [
