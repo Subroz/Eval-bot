@@ -7,7 +7,6 @@
   "repository": "https://github.com/Subroz/Eval-bot",
   "success_url": "https://t.me/Subroz",
   "website": "https://github.com/Subroz",
-  "stack": "container",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
