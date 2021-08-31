@@ -7,7 +7,7 @@ load_dotenv("configs.env")
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", "123"))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    USERS = os.environ.get("USERS", "1445283714").split()
+    API_ID = 7109229
+    API_HASH = "6a2d24e9e6cc4a371ac3d8eca18b12d7"
+    BOT_TOKEN = "1979489937:AAGhD8s9coSOCFEqyhfnCD6sQ1y2R-rxy34"
+    USERS = 973779397
