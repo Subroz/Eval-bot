@@ -10,4 +10,4 @@ class Config(object):
     API_ID = int(os.environ.get("API_ID", "123"))
     API_HASH = os.environ.get("API_HASH", "")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    USERS = os.environ.get("USERS", "1445283714").split()
+    USERS = 973779397 1837158199
