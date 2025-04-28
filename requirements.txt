@@ -1,4 +1,4 @@
 aiofiles
-Pyrogram
+pyrotgfork
 TgCrypto
 python-dotenv
