@@ -15,15 +15,19 @@ from pyrogram.types import KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRem
 
 ChatId = -1001228748022
 
+Bot = Client(
+name="Meme-Bot",
+
+api_id=Config.API_ID,
+
+api_hash=Config.API_HASH,
+
+bot_token=Config.BOT_TOKEN
+)
+
+Bot.start()
 
 Bot.send_message(ChatId, text="kek",reply_markup=ReplyKeyboardRemove(selective=True))
-
-Bot = Client(
-    name="Meme-Bot",
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
-    bot_token=Config.BOT_TOKEN
-)
 
 
 async def aexec(code, client, message):
