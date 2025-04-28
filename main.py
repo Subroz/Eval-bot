@@ -13,7 +13,7 @@ from pyrogram.types import Message
 from pyrogram.errors import MessageTooLong
 
 Bot = Client(
-    session_name="Meme-Bot",
+    name="Meme-Bot",
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     bot_token=Config.BOT_TOKEN
