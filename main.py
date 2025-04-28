@@ -15,7 +15,6 @@ from pyrogram.types import KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRem
 
 ChatId = -1001228748022
 
-Bot.start()
 
 Bot.send_message(ChatId, text="kek",reply_markup=ReplyKeyboardRemove(selective=True))
 
