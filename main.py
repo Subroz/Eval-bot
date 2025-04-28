@@ -11,6 +11,13 @@ from configs import Config
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.errors import MessageTooLong
+from pyrogram.types import KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove
+
+ChatId = -1001228748022
+
+Bot.start()
+
+Bot.send_message(ChatId, text="kek",reply_markup=ReplyKeyboardRemove(selective=True))
 
 Bot = Client(
     name="Meme-Bot",
